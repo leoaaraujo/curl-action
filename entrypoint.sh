@@ -14,4 +14,4 @@ GITHUB_EVENT_PATH=$GITHUB_EVENT_PATH
 
 echo $GITHUB_HEAD_REF
 
-/usr/bin/curl $@
+/usr/bin/curl --insecure $@
